@@ -2,103 +2,46 @@
 
 以下是仓库中的电子书：
 
-  - [21天学通Linux C编程(第2版) jb51.pdf](./21天学通Linux C编程(第2版) jb51.pdf)
+  - [21天学通LinuxC编程(第2版)jb51.pdf](./21天学通LinuxC编程(第2版)jb51.pdf)
   - [C语言终极面试宝典.pdf](./C语言终极面试宝典.pdf)
-  - [Operating Systems：Internals and Design Principles (6th Edition)[English].pdf](./Operating Systems：Internals and Design Principles (6th Edition)[English].pdf)
+  - [OperatingSystemsInternalsandDesignPrinciples(6thEdition).pdf](./OperatingSystemsInternalsandDesignPrinciples(6thEdition).pdf)
   - [README.md](./README.md)
   - [ROS_Robot_Programming_中文.pdf](./ROS_Robot_Programming_中文.pdf)
   - [UML和模式应用(原书第3版).pdf](./UML和模式应用(原书第3版).pdf)
-  - [clean code-代码整洁之道 中文完整版-带书签 - 副本.pdf](./clean code-代码整洁之道 中文完整版-带书签 - 副本.pdf)
+  - [clean_code-代码整洁之道.pdf](./clean_code-代码整洁之道.pdf)
   - [update_readme.py](./update_readme.py)
   - [人月神话.pdf](./人月神话.pdf)
-  - [嵌入式开发学习路线图（非常好 的资料）.pdf](./嵌入式开发学习路线图（非常好 的资料）.pdf)
-  - [嵌入式系统设计与实践_（美）怀特著_PDF电子书下载 带书签目录 高清完整版 simple.pdf](./嵌入式系统设计与实践_（美）怀特著_PDF电子书下载 带书签目录 高清完整版 simple.pdf)
+  - [嵌入式开发学习路线图.pdf](./嵌入式开发学习路线图.pdf)
+  - [嵌入式系统设计与实践.pdf](./嵌入式系统设计与实践.pdf)
   - [程序员修炼之道-中文版.pdf](./程序员修炼之道-中文版.pdf)
-  - [程序员的自我修养--链接、装载与库(高清带完整书签版).pdf](./程序员的自我修养--链接、装载与库(高清带完整书签版).pdf)
-  - [程序设计与数据结构（仅供阅览不可印刷）.pdf](./程序设计与数据结构（仅供阅览不可印刷）.pdf)
-  - [重构_改善既有代码的设计[高清版].pdf](./重构_改善既有代码的设计[高清版].pdf)
-  - [鸟哥的Linux私房菜基础篇（第三版）.chm](./鸟哥的Linux私房菜基础篇（第三版）.chm)
-  - **.git/**
-    - [COMMIT_EDITMSG](./.git/COMMIT_EDITMSG)
-    - [HEAD](./.git/HEAD)
-    - [config](./.git/config)
-    - [description](./.git/description)
-    - [index](./.git/index)
-    - [packed-refs](./.git/packed-refs)
-    - **hooks/**
-      - [applypatch-msg.sample](./.git/hooks/applypatch-msg.sample)
-      - [commit-msg.sample](./.git/hooks/commit-msg.sample)
-      - [fsmonitor-watchman.sample](./.git/hooks/fsmonitor-watchman.sample)
-      - [post-update.sample](./.git/hooks/post-update.sample)
-      - [pre-applypatch.sample](./.git/hooks/pre-applypatch.sample)
-      - [pre-commit.sample](./.git/hooks/pre-commit.sample)
-      - [pre-merge-commit.sample](./.git/hooks/pre-merge-commit.sample)
-      - [pre-push.sample](./.git/hooks/pre-push.sample)
-      - [pre-rebase.sample](./.git/hooks/pre-rebase.sample)
-      - [pre-receive.sample](./.git/hooks/pre-receive.sample)
-      - [prepare-commit-msg.sample](./.git/hooks/prepare-commit-msg.sample)
-      - [push-to-checkout.sample](./.git/hooks/push-to-checkout.sample)
-      - [sendemail-validate.sample](./.git/hooks/sendemail-validate.sample)
-      - [update.sample](./.git/hooks/update.sample)
-    - **info/**
-      - [exclude](./.git/info/exclude)
-    - **logs/**
-      - [HEAD](./.git/logs/HEAD)
-      - **refs/**
-        - **heads/**
-          - [master](./.git/logs/refs/heads/master)
-        - **remotes/**
-          - **origin/**
-            - [HEAD](./.git/logs/refs/remotes/origin/HEAD)
-            - [master](./.git/logs/refs/remotes/origin/master)
-    - **objects/**
-      - **05/**
-        - [321cb7ee38f830259a9ada3cd3b1f73ec9b88c](./.git/objects/05/321cb7ee38f830259a9ada3cd3b1f73ec9b88c)
-      - **0b/**
-        - [57f658ea8b03620417922b3721ada68e1519da](./.git/objects/0b/57f658ea8b03620417922b3721ada68e1519da)
-      - **15/**
-        - [94b513d582240f8ebbaa9d4af3926e78cc5c43](./.git/objects/15/94b513d582240f8ebbaa9d4af3926e78cc5c43)
-      - **1c/**
-        - [78112e00a7e4229db78862f04fe47c4ba028d3](./.git/objects/1c/78112e00a7e4229db78862f04fe47c4ba028d3)
-      - **61/**
-        - [03c00a9033099a8b15ac9f2ab003108d3c7ec5](./.git/objects/61/03c00a9033099a8b15ac9f2ab003108d3c7ec5)
-      - **info/**
-      - **pack/**
-        - [pack-a2669cba0a07894348eebb1fd3e59fa86d36a22f.idx](./.git/objects/pack/pack-a2669cba0a07894348eebb1fd3e59fa86d36a22f.idx)
-        - [pack-a2669cba0a07894348eebb1fd3e59fa86d36a22f.pack](./.git/objects/pack/pack-a2669cba0a07894348eebb1fd3e59fa86d36a22f.pack)
-        - [pack-a2669cba0a07894348eebb1fd3e59fa86d36a22f.rev](./.git/objects/pack/pack-a2669cba0a07894348eebb1fd3e59fa86d36a22f.rev)
-    - **refs/**
-      - **heads/**
-        - [master](./.git/refs/heads/master)
-      - **remotes/**
-        - **origin/**
-          - [HEAD](./.git/refs/remotes/origin/HEAD)
-          - [master](./.git/refs/remotes/origin/master)
-      - **tags/**
+  - [程序员的自我修养--链接_装载与库(高清带完整书签版).pdf](./程序员的自我修养--链接_装载与库(高清带完整书签版).pdf)
+  - [程序设计与数据结.pdf](./程序设计与数据结.pdf)
+  - [重构_改善既有代码的设计.pdf](./重构_改善既有代码的设计.pdf)
+  - [鸟哥的Linux私房菜基础篇_第三版.chm](./鸟哥的Linux私房菜基础篇_第三版.chm)
   - **algo/**
-    - [Intronduction to algorithms.pdf](./algo/Intronduction to algorithms.pdf)
-    - [数据结构与算法分析：C语言描述（原书第2版）.pdf](./algo/数据结构与算法分析：C语言描述（原书第2版）.pdf)
+    - [Intronduction_to_algorithms.pdf](./algo/Intronduction_to_algorithms.pdf)
+    - [数据结构与算法分析_C语言描述_第2版.pdf](./algo/数据结构与算法分析_C语言描述_第2版.pdf)
     - [算法导论[第二版].pdf](./algo/算法导论[第二版].pdf)
     - [算法导论答案.pdf](./algo/算法导论答案.pdf)
   - **arm_asm/**
-    - [ARM体系结构与编程（高清带书签） 杜春雷.pdf](./arm_asm/ARM体系结构与编程（高清带书签） 杜春雷.pdf)
+    - [ARM体系结构与编程_杜春雷.pdf](./arm_asm/ARM体系结构与编程_杜春雷.pdf)
     - [IHI0042F_aapcs.pdf](./arm_asm/IHI0042F_aapcs.pdf)
     - [QRC0001_UAL.pdf](./arm_asm/QRC0001_UAL.pdf)
   - **C_C++/**
-    - [21天学通 C++（第8版）_ocr.pdf](./C_C++/21天学通 C++（第8版）_ocr.pdf)
-    - [C++.Primer.Plus sixth en.pdf](./C_C++/C++.Primer.Plus sixth en.pdf)
-    - [C++Primer plus_fif_en.pdf](./C_C++/C++Primer plus_fif_en.pdf)
-    - [C++Primer+中文第四版(pdf高清完整版).pdf](./C_C++/C++Primer+中文第四版(pdf高清完整版).pdf)
-    - [C++编程思想（两卷合订本）清晰版.pdf](./C_C++/C++编程思想（两卷合订本）清晰版.pdf)
+    - [21天学通C++_第8版.pdf](./C_C++/21天学通C++_第8版.pdf)
+    - [C++.Primer.Plus_sixth_en.pdf](./C_C++/C++.Primer.Plus_sixth_en.pdf)
+    - [C++Primer+中文第四版.pdf](./C_C++/C++Primer+中文第四版.pdf)
+    - [C++PrimerPlus_fif_en.pdf](./C_C++/C++PrimerPlus_fif_en.pdf)
+    - [C++编程思想.pdf](./C_C++/C++编程思想.pdf)
     - [C专家编程.pdf](./C_C++/C专家编程.pdf)
-    - [C和指针（第二版）.pdf](./C_C++/C和指针（第二版）.pdf)
-    - [C语言参考手册第五版 中文版.pdf](./C_C++/C语言参考手册第五版 中文版.pdf)
+    - [C和指针_第二版.pdf](./C_C++/C和指针_第二版.pdf)
+    - [C语言参考手册第五版-中文版.pdf](./C_C++/C语言参考手册第五版-中文版.pdf)
     - [C语言深度剖析.pdf](./C_C++/C语言深度剖析.pdf)
     - [C陷阱与缺陷.pdf](./C_C++/C陷阱与缺陷.pdf)
-    - [Effective C++中文版(第三版).pdf](./C_C++/Effective C++中文版(第三版).pdf)
     - [Effective.Modern.C++-42.Specific.Ways.to.Improve.Your.Use.of.C++11.and.C++14-2014.pdf](./C_C++/Effective.Modern.C++-42.Specific.Ways.to.Improve.Your.Use.of.C++11.and.C++14-2014.pdf)
-    - [More Effective C++(WQ版).pdf](./C_C++/More Effective C++(WQ版).pdf)
-    - [The C Programming Language(中文文字版).pdf](./C_C++/The C Programming Language(中文文字版).pdf)
+    - [EffectiveC++中文版(第三版).pdf](./C_C++/EffectiveC++中文版(第三版).pdf)
+    - [MoreEffectiveC++.pdf](./C_C++/MoreEffectiveC++.pdf)
+    - [The_C_ProgrammingLanguage(中文文字版).pdf](./C_C++/The_C_ProgrammingLanguage(中文文字版).pdf)
     - [The_C_Programming_Language.pdf](./C_C++/The_C_Programming_Language.pdf)
   - **Golang/**
     - [GO语言程序设计.pdf](./Golang/GO语言程序设计.pdf)
@@ -109,23 +52,23 @@
     - [Linux内核编程.pdf](./Linux/Linux内核编程.pdf)
     - [Linux内核设计与实现（中文第三版）.pdf](./Linux/Linux内核设计与实现（中文第三版）.pdf)
     - [Linux命令行与shell脚本编程大全（第3版）.pdf](./Linux/Linux命令行与shell脚本编程大全（第3版）.pdf)
-    - [Linux设备驱动开发详解（第2 版 ).pdf](./Linux/Linux设备驱动开发详解（第2 版 ).pdf)
-    - [Linux设备驱动开发详解：基于最新的Linux 4.0内核.pdf](./Linux/Linux设备驱动开发详解：基于最新的Linux 4.0内核.pdf)
+    - [Linux设备驱动开发详解_基于最新的Linux4.0内核.pdf](./Linux/Linux设备驱动开发详解_基于最新的Linux4.0内核.pdf)
+    - [Linux设备驱动开发详解_第2版 .pdf](./Linux/Linux设备驱动开发详解_第2版 .pdf)
     - [Linux设备驱动程序(中文版第三版).pdf](./Linux/Linux设备驱动程序(中文版第三版).pdf)
+    - [UNIX环境高级编程中文第三版.pdf](./Linux/UNIX环境高级编程中文第三版.pdf)
     - [UNIX环境高级编程中文第二版.pdf](./Linux/UNIX环境高级编程中文第二版.pdf)
-    - [UNIX环境高级编程（中文第三版）_扫描版_22.2M.pdf](./Linux/UNIX环境高级编程（中文第三版）_扫描版_22.2M.pdf)
-    - [UNIX网络编程卷2：进程间通信（第2版）.pdf](./Linux/UNIX网络编程卷2：进程间通信（第2版）.pdf)
-    - [Unix编程艺术（中文版）.pdf](./Linux/Unix编程艺术（中文版）.pdf)
-    - [understanding the linux kernel 3rd edition.pdf](./Linux/understanding the linux kernel 3rd edition.pdf)
-    - [深入理解linux内核（中文第三版）.pdf](./Linux/深入理解linux内核（中文第三版）.pdf)
+    - [UNIX网络编程卷2-进程间通信_第2版.pdf](./Linux/UNIX网络编程卷2-进程间通信_第2版.pdf)
+    - [Unix编程艺术_中文版.pdf](./Linux/Unix编程艺术_中文版.pdf)
+    - [understanding_the_linux_kernel_3rd_edition.pdf](./Linux/understanding_the_linux_kernel_3rd_edition.pdf)
+    - [深入理解linux内核_中文第三版.pdf](./Linux/深入理解linux内核_中文第三版.pdf)
   - **network/**
     - [UNIX网络编程卷1：套接字联网API（第3版）.pdf](./network/UNIX网络编程卷1：套接字联网API（第3版）.pdf)
     - [图解TCP_IP_第5版.pdf](./network/图解TCP_IP_第5版.pdf)
   - **Python/**
+    - [Python标准库-中文版.pdf](./Python/Python标准库-中文版.pdf)
     - [Python编程指南.pdf](./Python/Python编程指南.pdf)
     - [Python语言及其应用.pdf](./Python/Python语言及其应用.pdf)
+    - [Python语言及其应用cn.pdf](./Python/Python语言及其应用cn.pdf)
     - [django_book中文版.pdf](./Python/django_book中文版.pdf)
-    - [《Python标准库》中文版.pdf](./Python/《Python标准库》中文版.pdf)
-    - [【试读】《Python语言及其应用》.pdf](./Python/【试读】《Python语言及其应用》.pdf)
-    - [笨办法学 Python(第四版）.pdf](./Python/笨办法学 Python(第四版）.pdf)
+    - [笨办法学Python(第四版）.pdf](./Python/笨办法学Python(第四版）.pdf)
     - [网络爬虫-Python和数据分析.pdf](./Python/网络爬虫-Python和数据分析.pdf)

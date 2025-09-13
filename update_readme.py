@@ -3,12 +3,17 @@ import os
 BOOKS_DIR = "./"
 README_FILE = "README.md"
 
+EXCLUDE_DIRS = {".git", ".github", "__pycache__"}  # 可以扩展过滤目录
+EXCLUDE_FILES = {".DS_Store", "Thumbs.db"}         # 可以扩展过滤文件
+
 def scan_books(base_dir=BOOKS_DIR):
     """递归扫描目录，生成 Markdown 列表"""
     lines = []
 
     for root, dirs, files in os.walk(base_dir):
-        # 相对路径（用于 README 链接和分层显示）
+        # 过滤不需要的目录
+        dirs[:] = [d for d in dirs if d not in EXCLUDE_DIRS and not d.startswith(".")]
+
         rel_dir = os.path.relpath(root, base_dir)
         indent_level = 0 if rel_dir == "." else rel_dir.count(os.sep) + 1
         indent = "  " * indent_level
@@ -20,7 +25,7 @@ def scan_books(base_dir=BOOKS_DIR):
 
         # 文件列表
         for file in sorted(files):
-            if file.startswith("."):  # 忽略隐藏文件
+            if file in EXCLUDE_FILES or file.startswith("."):
                 continue
             file_path = os.path.join(root, file).replace("\\", "/")
             display_name = file
